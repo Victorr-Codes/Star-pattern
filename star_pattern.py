@@ -1,9 +1,10 @@
 import turtle
 t = turtle.Turtle()
+t.pencolor("red")
 t.speed(0)
 angle = 0
 size = 5
-while 1:
+while True:
     for i in range(5):
         t.forward(250)
         t.right(144)
